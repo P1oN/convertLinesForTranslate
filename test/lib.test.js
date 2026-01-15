@@ -114,7 +114,7 @@ test("convertLineToEntry(): does NOT parse when whole line wrapped in quotes", (
 
   // Entire line is treated as value; key is generated from cleaned value.
   assert.deepEqual(entry, {
-    key: "userprofiletitle_profile_title",
+    key: "user_profile_title_profile_title",
     value: "user.profile.title = Profile title",
     mode: "auto",
   });
