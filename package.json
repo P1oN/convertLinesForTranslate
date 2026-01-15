@@ -1,7 +1,7 @@
 {
   "name": "translate-gen",
   "version": "1.0.0",
-  "description": "## If you are tired of coming up with keys for the translation file, this script will help you.",
+  "description": "A small Node.js CLI tool that converts a plain-text file into an i18n dictionary.",
   "main": "index.js",
   "type": "commonjs",
   "repository": {
